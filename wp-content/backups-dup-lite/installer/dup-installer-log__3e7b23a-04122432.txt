@@ -1,0 +1,720 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 04:52:40
+* VERSION: 1.3.38
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.10                                |7.2.33
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2020-11-04 12:24:32
+WP VERSION__________: 5.5.3
+DUP VERSION_________: 1.3.38
+DB__________________: 10.4.14
+DB TABLES___________: 48
+DB ROWS_____________: 2,973
+DB FILE SIZE________: 3.05MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.2.33 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33
+DOC ROOT____________: "E:/xampp/htdocs/junno3"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/junno3/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "E:/xampp/htdocs/junno3/20201027_easybuy_[HASH]_20201104122432_archive.zip"
+SIZE________________: 43.98MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "E:/xampp/htdocs/junno3/20201027_easybuy_[HASH]_20201104122432_archive.zip"
+SIZE________________: 43.98MBFile timestamp set to Current: 2020-11-05 16:52:58
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 04:52:58 - RUNTIME: 18.1400 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 04:53:32
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "create"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.14 -- Build Server: 10.4.14
+FILE SIZE:	dup-database__[HASH].sql (649.46KB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[E:/xampp/htdocs/junno3/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	424
+
+wp_actionscheduler_actions: (11)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (2)
+wp_actionscheduler_logs: (33)
+wp_commentmeta: (201)
+wp_comments: (42)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_mailchimp_carts: (0)
+wp_mailchimp_jobs: (0)
+wp_options: (370)
+wp_postmeta: (1647)
+wp_posts: (110)
+wp_term_relationships: (180)
+wp_term_taxonomy: (35)
+wp_termmeta: (30)
+wp_terms: (35)
+wp_usermeta: (51)
+wp_users: (1)
+wp_wc_admin_note_actions: (21)
+wp_wc_admin_notes: (19)
+wp_wc_category_lookup: (1)
+wp_wc_customer_lookup: (1)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (3)
+wp_wc_order_stats: (1)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_meta_lookup: (73)
+wp_wc_reserved_stock: (0)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (2)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (27)
+wp_woocommerce_order_items: (3)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (3)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_yith_wcwl: (2)
+wp_yith_wcwl_lists: (1)
+Removed '77' cache/transient rows
+
+INSERT DATA RUNTIME: 1.4211 sec.
+STEP-2 COMPLETE @ 04:53:33 - RUNTIME: 1.5161 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 04:53:46
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "EasyBuy"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "D:/xampp/htdocs/junno2"
+path_new______________: "E:/xampp/htdocs/junno3"
+siteurl_______________: "http://localhost/junno3"
+url_old_______________: "http://localhost/junno2"
+url_new_______________: "http://localhost/junno3"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:   201][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:    42][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailchimp_carts"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailchimp_jobs"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   370][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  1647][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   110][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   180][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    35][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    30][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    35][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    51][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    21][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:    73][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:    27][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yith_wcwl"____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+
+EVALUATE TABLE: "wp_yith_wcwl_lists"______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/xampp/htdocs/junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  2:"D:\/xampp\/htdocs\/junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  3:"D%3A%2Fxampp%2Fhtdocs%2Fjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  4:"D:\xampp\htdocs\junno2" ==========================> "E:/xampp/htdocs/junno3"
+	SEARCH  5:"D:\\xampp\\htdocs\\junno2" =======================> "E:\/xampp\/htdocs\/junno3"
+	SEARCH  6:"D%3A%5Cxampp%5Chtdocs%5Cjunno2" ==================> "E%3A%2Fxampp%2Fhtdocs%2Fjunno3"
+	SEARCH  7:"//localhost/junno2" ==============================> "//localhost/junno3"
+	SEARCH  8:"\/\/localhost\/junno2" ===========================> "\/\/localhost\/junno3"
+	SEARCH  9:"%2F%2Flocalhost%2Fjunno2" ========================> "%2F%2Flocalhost%2Fjunno3"
+	SEARCH 10:"https://localhost/junno3" ========================> "http://localhost/junno3"
+	SEARCH 11:"https:\/\/localhost\/junno3" =====================> "http:\/\/localhost\/junno3"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fjunno3" ================> "http%3A%2F%2Flocalhost%2Fjunno3"
+--------------------------------------
+SCANNED:	Tables:48 	|	 Rows:2907 	|	 Cells:15307 
+UPDATED:	Tables:5 	|	 Rows:98 	|	 Cells:100 
+ERRORS:		0 
+RUNTIME:	0.713000 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""junno3""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 04:53:47 - RUNTIME: 0.8891 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

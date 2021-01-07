@@ -1,0 +1,84 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: November 8, 2020 7:54 am
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.38
+WORDPRESS:	5.5.3
+PHP INFO:	7.2.33 | SAPI: apache2handler
+SERVER:		Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (1024M default) 
+MEMORY STACK: 6MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20201027_easybuy_077867442132dd0d3074_20201108075434_database.sql
+SQL FILE SIZE: 1.15MB (1204069)
+SQL FILE TIME: 2020-11-08 07:54:58
+SQL RUNTIME: 2.05 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  E:/xampp/htdocs/junno3
+ARCHIVE FILE: 20201027_easybuy_077867442132dd0d3074_20201108075434_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	135.55MB
+STATS:	Dirs 1,356 | Files 8,256
+SQL ADDED: 20201027_easybuy_077867442132dd0d3074_20201108075434_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 9612
+    [filename] => E:\xampp\htdocs\junno3\wp-content\backups-dup-lite\tmp\20201027_easybuy_077867442132dd0d3074_20201108075434_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 9611
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 49.23MB
+ARCHIVE RUNTIME: 50.58 sec.
+MEMORY STACK: 8MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip E:/xampp/htdocs/junno3/wp-content/backups-dup-lite/tmp/20201027_easybuy_077867442132dd0d3074_20201108075434_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 1.15MB
+INSTALLER FILE: 61.31KB
+ARCHIVE FILE: 50.76MB 
+EXPECTED FILE/DIRECTORY COUNT: 9,612
+ACTUAL FILE/DIRECTORY COUNT: 9,611
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[6]
+TOTAL PROCESS RUNTIME: 54.35 sec.
+PEAK PHP MEMORY USED: 10MB
+DONE PROCESSING => 20201027_easybuy November 8, 2020 7:55 am
+

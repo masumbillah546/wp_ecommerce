@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEI,gIACmB,CACjB,OAAO,CAAE,IAAI",
+"sources": ["../scss/avada.scss"],
+"names": [],
+"file": "avada.css"
+}

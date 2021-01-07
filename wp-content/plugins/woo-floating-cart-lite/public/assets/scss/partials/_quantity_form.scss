@@ -1,0 +1,93 @@
+.xt_woofc-quantity {
+
+  position: relative;
+  display: inline-flex;
+  height: 25px;
+  z-index: 10;
+  justify-content: flex-start;
+
+  &.xt_woofc-shake {
+    animation: xt_woofc-shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    backface-visibility: hidden;
+    perspective: 300px;
+    transform: translateX(0);
+  }
+
+  form {
+
+    box-shadow: 0 0 2px rgba(24,24,24,0.2);
+    overflow: hidden;
+    margin: 0!important;
+    transition: opacity 0.3s ease, box-shadow 0.3s ease;
+
+    .xt_woofc-quantity-row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 100%;
+    }
+
+    .xt_woofc-quantity-col {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      flex: 0;
+      align-items: center;
+      justify-content: center;
+      border-right: 1px solid rgba(36, 36, 36, 0.1);
+      padding: 0 5px;
+
+      &:last-child {
+        border-right:0;
+      }
+
+      &.xt_woofc-quantity-col-minus,
+      &.xt_woofc-quantity-col-plus{
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        min-width: 25px;
+      }
+
+      &.xt_woofc-quantity-col-input {
+
+        input {
+          width: auto;
+          display: block;
+          margin: 0;
+          font-weight: 400;
+          -webkit-appearance: none;
+          -moz-appearance: textfield;
+          min-width: 25px;
+          height: 100%;
+          text-align: center;
+          font-size: 14px;
+          border: 0;
+          padding: 0;
+          background: none;
+          outline: none;
+          transition: width 0.2s ease;
+          will-change: width;
+          box-shadow: initial!important;
+
+          &:focus {
+            outline: 0;
+            border-color: #eee;
+          }
+
+          &::-webkit-inner-spin-button,
+          &::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
